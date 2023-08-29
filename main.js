@@ -12,7 +12,9 @@ function goToHell() {
   const HellSec = Math.floor((Hell / 1000) % 60);
 
   time.innerText = `${HellDay}일 ${HellHour}시간 ${HellMin}분 ${HellSec}초`;
-  today.innerText = `${todayDate.getFullYear()}년 ${todayDate.getMonth() + 1}월 ${todayDate.getDate()}일 ` ;
+  today.innerText = `${beArmy.getFullYear()}년 ${
+    beArmy.getMonth() + 1
+  }월 ${beArmy.getDate()}일 `;
 }
 goToHell()
  setInterval(goToHell, 1000);
