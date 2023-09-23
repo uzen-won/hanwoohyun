@@ -1,7 +1,7 @@
 let time = document.querySelector('#time')
 let today = document.querySelector('#today')
 function goToHell() {
-  let beArmy = new Date("2023-10-02 00:00:00");
+  let beArmy = new Date("2023-10-04 00:00:00");
   let todayDate = new Date();
   console.log(todayDate);
   console.log(beArmy);
